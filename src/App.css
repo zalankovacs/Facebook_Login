@@ -1,0 +1,188 @@
+.container {
+  margin: 120px auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* .column {
+  box-sizing: border-box;
+}
+
+.column-1 {
+  flex: 1.75;
+}
+
+.column-2 {
+  flex: 1.25;
+} */
+
+.content {
+  padding: 16px;
+}
+
+.title {
+  padding: 5px 0 16px 0;
+  color: #1877f2;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text_1 {
+  color: #333;
+  font-size: 36px;
+}
+
+.text_2 {
+  color: #606770;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.users{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 160px;
+  /* height: 160px; */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 16px 16px 16px 0;
+  background-color: #fff;
+}
+
+.card img {
+  width: auto; /* Elimină lățimea fixă */
+  height: auto; 
+  color: black;
+  border-bottom: 1px solid gray;
+}
+
+.card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 162px;
+  border-bottom: 1px solid gray;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  color: #4b4f56;
+  font-size: 18px;
+  font-weight: 600;
+  /* padding: 8px; */
+}
+
+.custom-form {
+  min-width: 300px;
+  margin: 16px 16px 0 16px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn {
+  display: inline-block; 
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #0866ff;
+}
+
+.btn-secondary {
+  background-color: #42b72a;
+  margin: 0 auto;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.btn-secondary:hover {
+  background-color: #43a52f;
+}
+
+form a {
+  color: #0866ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.forget {
+  margin: 8px 0;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.lofasz {
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 16px;
+}
+
+.creation {
+  margin: 18px 16px;
+  color: #1c1e21;
+  font-size: 14px;
+}
+
+.creation a {
+  color: black;
+  font-weight: 700;
+  /* cursor: pointer; */
+}
+
+.creation a:hover{
+  color:#333;
+  text-decoration: underline;
+}
